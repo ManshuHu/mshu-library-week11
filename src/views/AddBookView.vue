@@ -10,7 +10,7 @@
         <label for="name">Name:</label>
         <input type="text" v-model="name" id="name" required />
       </div>
-      <button type="submit">{{ editingBook ? 'Update' : 'Add' }} Book</button>
+      <button type="submit">{{ editingBook ? 'Update' : 'Add' }} book</button>
     </form>
     <div class="book-list">
       <BookList @editBook="editBook" @deleteBook="deleteBook"/>
